@@ -15,7 +15,7 @@ puts = "Who is the host?"
 host_name = gets.chomp
 
 puts "Dear #{guest_name.capitalize},"
-puts "You are invited to #{party_name.titleize} on #{date} at #{time}." 
+puts "You are invited to #{party_name.capitalize} on #{date} at #{time}." 
 puts "Sincerely,"
 puts "#{host_name.capitalize}"
 
