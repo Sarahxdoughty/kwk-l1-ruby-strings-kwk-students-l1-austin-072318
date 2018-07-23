@@ -12,11 +12,11 @@ puts "What time is your party?"
 time = gets.chomp
 
 puts = "Who is the host?"
-host_name = gets.chomp.capitalize
+host_name = gets.chomp
 
 puts "Dear #{guest_name.capitalize},"
 puts "You are invited to #{party_name.capitalize} on #{date} at #{time}." 
 puts "Sincerely,"
-puts "#{host_name}"
+puts "#{host_name.capitalize}"
 
 
