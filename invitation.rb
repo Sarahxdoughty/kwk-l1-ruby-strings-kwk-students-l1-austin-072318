@@ -17,6 +17,6 @@ host_name = gets.chomp
 puts "Dear #{guest_name.capitalize},"
 puts "You are invited to #{party_name.split(/ |\_/).map(&:capitalize).join(" ")} on #{date} at #{time}." 
 puts "Sincerely,"
-puts "#{host_name.capitalize}"
+puts "#{host_name..split(/ |\_/).map(&:capitalize).join(" ")}"
 
 
